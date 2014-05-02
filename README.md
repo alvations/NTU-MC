@@ -4,6 +4,13 @@ NTU-MC
 This is a legacy repository for the STB subcorpora of the Nanyang Technological University - Multilingual Corpus (NTU-MC) project. New editions of NTU-MC are maintained by [NTU Computational Linguistics Lab](http://compling.hss.ntu.edu.sg/index.html)
 
 
+Spin-offs
+========
+
+* [GaChalign](https://code.google.com/p/gachalign/): A python implementation of Gale-Church Sentence-level Aligner with variable parameters
+* [Mini-segmenter](https://code.google.com/p/mini-segmenter/): A Dictionary based Chinese segmenter
+* [Indotag](): Implementation of Pisceldo et al. (2010) Bahasa Indonesian Part of Speech tagger, using 1M word corpus from the Pan Asia Networking Localization Project. 
+
 
 Changelog
 ==========
@@ -34,8 +41,8 @@ Please cite the following when using the data/scripts from the NTU-MC:
 }
 ```
 
-**Other References**:
-
 * Liling Tan. 2011. [Building the foundation text for Nanyang Technological University - Multilingual Corpus (NTU-MC).](http://dr.ntu.edu.sg/bitstream/handle/10220/7790/Liling%20Tan.pdf). Bachelor Final Year Project. Nanyang Technological University: Singapore.
 
 * Liling Tan and Francis Bond. 2012. Building and annotating the linguistically diverse NTU-MC (NTU-multilingual corpus). International Journal of Asian Language Processing, 22(4):161–174
+
+**Other References**:
