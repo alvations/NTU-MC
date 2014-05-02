@@ -10,10 +10,10 @@ This repository is the legacy data from the STB subcorpora of the NTU-MC project
 Changelogs
 ==========
 * [NTU-MC v1.0] (01.05.11): Foundation text.
-* [NTU-MC v2.0]() (20.08.11): Cleaned and sentence aligned.
-* [NTU-MC v3.0]() (01.05.12): Scheduled release for IJALP
-* [NTU-MC v4.0]() (27.01.13): Re-clean and retagged from scratch.
-* [NTU-MC v4.1]() (08.04.13): Scheduled release.
+* [NTU-MC v2.0](https://db.tt/A1HmkfAa) (20.08.11): Cleaned and sentence aligned.
+* [NTU-MC v3.0](https://db.tt/kFzIKRQi) (01.05.12): Scheduled release for IJALP
+* [NTU-MC v4.0](https://db.tt/RmtK1gaL) (27.01.13): Re-clean and retagged from scratch.
+* [NTU-MC v4.1](https://db.tt/DpqmJek4) (08.04.13): Scheduled release.
 
 
 References
