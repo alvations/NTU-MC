@@ -3,7 +3,7 @@ NTU-MC
 
 Nanyang Technological University - Multilingual Corpus (STB subcorpora)
 
-This repository is the legacy data from the STB subcorpora of the NTU-MC project.
+This repository is the legacy data from the STB subcorpora of the NTU-MC project. New editions of NTU-MC are maintained by [NTU Computational Linguistics Lab](http://compling.hss.ntu.edu.sg/index.html)
 
 
 
