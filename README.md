@@ -36,7 +36,7 @@ Please cite the following when using the data/scripts from the NTU-MC:
 }
 ```
 
-Other References:
+**Other References**:
 
 * Liling Tan. 2011. [Building the foundation text for Nanyang Technological University - Multilingual Corpus (NTU-MC).](http://dr.ntu.edu.sg/bitstream/handle/10220/7790/Liling%20Tan.pdf). Bachelor Final Year Project. Nanyang Technological University: Singapore.
 
