@@ -6,12 +6,14 @@ Nanyang Technological University - Multilingual Corpus (STB subcorpora)
 This repository is the legacy data from the STB subcorpora of the NTU-MC project.
 
 
+
 Changelogs
 ==========
-
-* 
-
-* 
+* [NTU-MC v1.0] (01.05.11): Foundation text.
+* [NTU-MC v2.0]() (20.08.11): Cleaned and sentence aligned.
+* [NTU-MC v3.0]() (01.05.12): Scheduled release for IJALP
+* [NTU-MC v4.0]() (27.01.13): Re-clean and retagged from scratch.
+* [NTU-MC v4.1]() (08.04.13): Scheduled release.
 
 
 References
@@ -19,7 +21,7 @@ References
 Please cite the following when using the data/scripts from the NTU-MC:
 
 ```
-@inproceedings{DBLP:conf/paclic/TanB11,
+@inproceedings{ntumc2011,
   author    = {Liling Tan and
                Francis Bond},
   title     = {Building and Annotating the Linguistically Diverse NTU-MC
@@ -28,14 +30,11 @@ Please cite the following when using the data/scripts from the NTU-MC:
   year      = {2011},
   pages     = {362-371},
   ee        = {http://www.aclweb.org/anthology/Y11-1038},
-  crossref  = {DBLP:conf/paclic/2011},
-  bibsource = {DBLP, http://dblp.uni-trier.de}
 }
 ```
 
 Other References:
 
-* 
-
 * Liling Tan. 2011. [Building the foundation text for Nanyang Technological University - Multilingual Corpus (NTU-MC).](http://dr.ntu.edu.sg/bitstream/handle/10220/7790/Liling%20Tan.pdf). Bachelor Final Year Project. Nanyang Technological University: Singapore.
 
+* Liling Tan and Francis Bond. 2012. Building and annotating the linguistically diverse NTU-MC (NTU-multilingual corpus). International Journal of Asian Language Processing, 22(4):161–174
