@@ -43,6 +43,6 @@ Please cite the following when using the data/scripts from the NTU-MC:
 
 * Liling Tan. 2011. [Building the foundation text for Nanyang Technological University - Multilingual Corpus (NTU-MC).](http://dr.ntu.edu.sg/bitstream/handle/10220/7790/Liling%20Tan.pdf). Bachelor Final Year Project. Nanyang Technological University: Singapore.
 
-* Liling Tan and Francis Bond. 2012. Building and annotating the linguistically diverse NTU-MC (NTU-multilingual corpus). International Journal of Asian Language Processing, 22(4):161–174
+* Liling Tan and Francis Bond. 2012. [Building and annotating the linguistically diverse NTU-MC (NTU-multilingual corpus)](http://www.colips.org/journal/volume22/22.4.2.NTU-MC%20Tan%20final.pdf). International Journal of Asian Language Processing, 22(4):161–174
 
 **Other References**:
