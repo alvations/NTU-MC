@@ -46,4 +46,7 @@ Please cite the following when using the data/scripts from the NTU-MC:
 
 * Liling Tan and Francis Bond. 2012. [Building and annotating the linguistically diverse NTU-MC (NTU-multilingual corpus)](http://www.colips.org/journal/volume22/22.4.2.NTU-MC%20Tan%20final.pdf). International Journal of Asian Language Processing, 22(4):161–174
 
+* Liling Tan and Francis Bond. 2014. NTU-MC Toolkit: Annotating a Linguistically Diverse Corpus. In Proceedings of 25th International Conference on Computational Linguistics (COLING 2014). Dublin, Ireland.
+
+
 **Other References**:
