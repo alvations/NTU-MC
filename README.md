@@ -15,6 +15,7 @@ Spin-offs
 Changelog
 ==========
 
+* [NTU-MC v5.0](https://db.tt/FP1ViZP4) (29.04.13): Better cleaning with titles
 * [NTU-MC v4.1](https://db.tt/DpqmJek4) (08.04.13): Scheduled release.
 * [NTU-MC v4.0](https://db.tt/RmtK1gaL) (27.01.13): Re-clean and retagged from scratch.
 * [NTU-MC v3.0](https://db.tt/kFzIKRQi) (01.05.12): Scheduled release for IJALP
