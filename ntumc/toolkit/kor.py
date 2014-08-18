@@ -17,7 +17,7 @@ class Postech():
         return text.encode('euc-kr').strip()
     
     def sejong(self, text):
-        text = utf8_to_euck(text)
+        text = self.utf8_to_euck(text)
         sejong_dir = self.sejong_dir
         with io.open(sejong_dir+'input.txt', 'wb') as fout:
             fout.write(text)
@@ -32,12 +32,12 @@ class Postech():
         return sejongtext
     
     def tag(self, text):
-        sejong(text)
+        sejongtext = self.sejong(text)
         tagged_text = [tuple(i.split(r'/')) for i in sejongtext.split()]
         return tagged_text
     
     def tokenize(self, text):
-        sejong(text)
+        sejongtext = self.sejong(text)
         text = " ".join([i.split(r'/')[0] for i in sejongtext.split()])
         return text
     

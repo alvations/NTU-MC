@@ -3,7 +3,7 @@
 import os, io, subprocess
 import sys; reload(sys); sys.setdefaultencoding('utf-8')
 
-def Jvntextpro():
+class Jvntextpro():
     def __init__(self, jvn_dir='/home/alvas/JVnTextPro-v.2.0/'):
         self.jvn_dir = jvn_dir
     
@@ -18,7 +18,6 @@ def Jvntextpro():
                                        ' -outputfile tmp.txt.wseg'])
         
     def tokenize(self, text):
-        print text
         # Write to text to temp file.
         os.popen("".join(['echo "', text, '" > tmp.txt']))
         # Runs segmenter.
