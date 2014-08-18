@@ -4,6 +4,7 @@ import os, io, subprocess, time
 import sys; reload(sys); sys.setdefaultencoding('utf-8')
 
 from nltk.tokenize import word_tokenize
+from nltk import pos_tag as nltk_pos_tag
 
 import cmn, kor, jpn, vie
 
@@ -24,5 +25,8 @@ def tokenize(text, lang):
         return " ".join(text.split())
         
 def pos_tag(text, lang):
+    if lang == 'eng':
+        return nltk_pos_tag(word_tokenize(text))
     if lang in lang2lib:
         return lang2lib[lang].pos_tag(text)
+    
