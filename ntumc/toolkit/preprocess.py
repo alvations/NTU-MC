@@ -18,7 +18,11 @@ lang2lib = {'jpn':japanese, 'cmn':chinese,
 def tokenize(text, lang):
     if lang in ['eng', 'ind']:
         return " ".join(word_tokenize(text))
-    elif lang in lang2lib.keys():
+    elif lang in lang2lib:
         return lang2lib[lang].tokenize(text)
     else:
         return " ".join(text.split())
+        
+def pos_tag(text, lang):
+    if lang in lang2lib:
+        return lang2lib[lang].pos_tag(text)

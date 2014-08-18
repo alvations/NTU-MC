@@ -30,15 +30,15 @@ class Postech():
             sejongtext = fin.read().strip().encode('utf8').decode('utf8')
         
         return sejongtext
-    
-    def tag(self, text):
-        sejongtext = self.sejong(text)
-        tagged_text = [tuple(i.split(r'/')) for i in sejongtext.split()]
-        return tagged_text
-    
+
     def tokenize(self, text):
         sejongtext = self.sejong(text)
         text = " ".join([i.split(r'/')[0] for i in sejongtext.split()])
         return text
     
+    def pos_tag(self, text):
+        sejongtext = self.sejong(text)
+        tagged_text = [tuple(i.split(r'/')) for i in sejongtext.split()]
+        return tagged_text
+        
     
