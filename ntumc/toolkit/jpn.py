@@ -14,6 +14,8 @@ class Mecab():
         return os.popen(cmd).read().strip()
     
     def pos_tag(self, text):
+        if text.count(' ') == 0:
+            text = self.tokenize(text)
         cmd = unicode("".join(['echo "', text.decode('utf8'),
                        '" | mecab -Ochasen']))
         return [itemgetter(0,3)(unicode(i.strip()).split()) 

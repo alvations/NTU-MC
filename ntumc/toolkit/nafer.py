@@ -20,7 +20,7 @@ def text2naf(text, sentid, paraid):
     textnaf.append(r'<\text>')
     return "\n".join(textnaf)
 
-indir = '/home/alvas/git/NTU-MC/subcorpora/yoursing/cleanest/'
+indir = '/home/alvas/git/NTU-MC/ntumc-v5/subcorpora/yoursing/cleanest/'
 langs = os.walk(indir).next()[1]
 
 for lang in langs:
@@ -56,4 +56,3 @@ for lang in langs:
                 
                 print text2naf(" ".join(tokens), sentid, paraid)
                 
-            
