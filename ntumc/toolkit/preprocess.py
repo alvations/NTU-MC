@@ -31,5 +31,3 @@ def pos_tag(text, lang):
         return nltk_pos_tag(word_tokenize(text))
     if lang in lang2lib:
         return lang2lib[lang].pos_tag(text)
-
-def miniwrapper(text):
