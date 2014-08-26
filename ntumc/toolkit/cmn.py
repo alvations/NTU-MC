@@ -32,9 +32,8 @@ class StanfordNLP():
         return text.split()
     
     def pos_tag(self, text):
-        if text.count(' ') == 0:
-            text = self.tokenize(text)
-        text = " ".join(text)
+        if isinstance(text, list):
+            text = " ".join(text)
         # Write to text to temp file.
         os.popen("".join(['echo "', text, '" > tmp.txt']))
         # Runs the tagger.

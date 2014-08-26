@@ -348,6 +348,11 @@ def main(source_corpus, target_corpus, mean=parameters.mean,
         for s,t in izip(src, trg):
             for sentence_pair in align(s,t, mean, variance, penalty):
                 print sentence_pair
+                
+def gachalign(source_corpus, target_corpus, mean=parameters.mean, 
+         variance=parameters.variance, penalty= parameters.penalty, 
+         option='char', delimiter='#'):
+    main(source_corpus, target_corpus, mean, variance, penalty, option, delimiter)
             
 if __name__ == '__main__':
   if len(sys.argv) not in range(3,6):
