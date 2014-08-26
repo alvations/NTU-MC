@@ -37,11 +37,11 @@ class Jvntextpro():
         os.popen(self.segmenter_cmd)
         # Reads from output file.
         text = io.open('tmp.txt.wseg', 'r', encoding='utf8').read().strip()
-        return " ".join(word_tokenize(text))
+        return word_tokenize(text)
     
     def pos_tag(self, text):
         # Tokenize the text.
-        text = self.tokenize(text)
+        text = " ".join(text)
         # Write to text to temp file.
         os.popen("".join(['echo "', text, '" > tmp.txt']))
         # Runs tagger.

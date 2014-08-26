@@ -22,7 +22,7 @@ def tokenize(text, lang):
     elif lang in lang2lib:
         return lang2lib[lang].tokenize(text)
     else:
-        return " ".join(text.split())
+        return text.split()
         
 def pos_tag(text, lang):
     if lang == 'eng':

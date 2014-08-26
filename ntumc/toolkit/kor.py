@@ -37,6 +37,8 @@ class Postech():
         return text
     
     def pos_tag(self, text):
+        if isinstance(x, list):
+            text = " ".join(text)
         sejongtext = self.sejong(text)
         tagged_text = [tuple(i.split(r'/')) for i in sejongtext.split()]
         return tagged_text
