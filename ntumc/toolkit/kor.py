@@ -43,4 +43,6 @@ class Postech():
         tagged_text = [tuple(i.split(r'/')) for i in sejongtext.split()]
         return tagged_text
         
+    def batch_pos_tag(self, text):
+        pass
     
