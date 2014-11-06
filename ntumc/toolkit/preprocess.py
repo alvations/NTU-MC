@@ -18,16 +18,16 @@ lang2lib = {'jpn':japanese, 'cmn':chinese,
             'vie':vietnamese, 'kor':korean,
             'ind':indonesian}
 
-def tokenize(text, lang):
+def tokenize(text, lang, batch=False):
     if lang in ['eng', 'ind']:
         return " ".join(word_tokenize(text))
     elif lang in lang2lib:
-        return lang2lib[lang].tokenize(text)
+        return lang2lib[lang].tokenize(text, batch=batch)
     else:
         return text.split()
         
-def pos_tag(text, lang):
+def pos_tag(text, lang, batch=False):
     if lang == 'eng':
         return nltk_pos_tag(word_tokenize(text))
     if lang in lang2lib:
-        return lang2lib[lang].pos_tag(text)
+        return lang2lib[lang].pos_tag(text, batch=batch)

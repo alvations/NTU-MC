@@ -5,7 +5,7 @@ from itertools import izip
 import sys; reload(sys); sys.setdefaultencoding('utf8')
 
 # This function reads the CC-CEDICT entries into a list.
-def readCedict(dic='/home/alvas/git/NTU-MC/ntumc/toolkit/cedict_ts.u8', output=None):
+def readCedict(dic='cedict_ts.u8', output=None):
   reader = [x.strip() for x in codecs.open(dic,"r","utf8") if x[0]!="#"]
   if output!= None:
     outfile = codecs.open(output,"w","utf8")
