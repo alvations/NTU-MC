@@ -8,7 +8,7 @@ Spin-offs
 ========
 
 * [NTU-MC Toolkit](http://www.aclweb.org/anthology/C/C14/C14-2019.pdf): An annotation toolkit for multilingual text (supports Arabic, Chinese, Japanese, Korean, Indonesian, Vietnamese and English)
-* [GaChalign](https://code.google.com/p/gachalign/): A python implementation of Gale-Church Sentence-level Aligner with variable parameters
+* [GaChalign](https://github.com/alvations/gachalign): A python implementation of Gale-Church Sentence-level Aligner with variable parameters
 * [Mini-segmenter](https://code.google.com/p/mini-segmenter/): A Dictionary based Chinese segmenter
 * [Indotag](): Implementation of Pisceldo et al. (2010) Bahasa Indonesian Part of Speech tagger, using 1M word corpus from the Pan Asia Networking Localization Project. 
 
