@@ -17,7 +17,7 @@ Changelog
 ==========
 
 
-* [NTU-MC v5.1] (26.08.14): Added NTU-MC Toolkit
+* [NTU-MC v5.1](https://github.com/alvations/NTU-MC) (26.08.14): Added NTU-MC Toolkit
 * [NTU-MC v5.0](https://db.tt/FP1ViZP4) (29.04.13): Better cleaning with titles
 * [NTU-MC v4.1](https://db.tt/DpqmJek4) (08.04.13): Scheduled release.
 * [NTU-MC v4.0](https://db.tt/RmtK1gaL) (27.01.13): Re-clean and retagged from scratch.
