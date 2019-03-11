@@ -17,13 +17,13 @@ Changelog
 ==========
 
 
-* [NTU-MC v5.1](https://github.com/alvations/NTU-MC) (26.08.14): Added NTU-MC Toolkit
-* [NTU-MC v5.0](https://db.tt/FP1ViZP4) (29.04.13): Better cleaning with titles
-* [NTU-MC v4.1](https://db.tt/DpqmJek4) (08.04.13): Scheduled release.
-* [NTU-MC v4.0](https://db.tt/RmtK1gaL) (27.01.13): Re-clean and retagged from scratch.
-* [NTU-MC v3.0](https://db.tt/kFzIKRQi) (01.05.12): Scheduled release for IJALP
-* [NTU-MC v2.0](https://db.tt/A1HmkfAa) (20.08.11): Cleaned and sentence aligned.
-* [NTU-MC v1.0] (01.05.11): Foundation text.
+* NTU-MC v5.1(26.08.14): Added NTU-MC Toolkit
+* [NTU-MC v5.0](https://drive.google.com/drive/folders/1ResffV1GXLCK6Dc-0ZxFeBRS9CtnMS71?usp=sharing) (29.04.13): Better cleaning with titles 
+* NTU-MC v4.1 (08.04.13): Scheduled release.
+* NTU-MC v4.0 (27.01.13): Re-clean and retagged from scratch.
+* NTU-MC v3.0 (01.05.12): Scheduled release for IJALP
+* NTU-MC v2.0 (20.08.11): Cleaned and sentence aligned.
+* NTU-MC v1.0 (01.05.11): Foundation text.
 
 
 
