@@ -17,7 +17,7 @@ Changelog
 ==========
 
 
-* NTU-MC v5.1(26.08.14): Added NTU-MC Toolkit
+* NTU-MC v5.1 (26.08.14): Added NTU-MC Toolkit
 * [NTU-MC v5.0](https://drive.google.com/drive/folders/1ResffV1GXLCK6Dc-0ZxFeBRS9CtnMS71?usp=sharing) (29.04.13): Better cleaning with titles 
 * NTU-MC v4.1 (08.04.13): Scheduled release.
 * NTU-MC v4.0 (27.01.13): Re-clean and retagged from scratch.
